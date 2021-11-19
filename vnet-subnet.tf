@@ -1,4 +1,4 @@
-resource "azurerm_virtual_network" "example"{
+resource "azurerm_virtual_network" "myTerraformNetwork"{
   name= var.vnetname
   address_space=["10.0.0.0/16"]
   location=var.location
